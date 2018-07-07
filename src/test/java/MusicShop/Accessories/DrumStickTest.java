@@ -16,12 +16,12 @@ public class DrumStickTest {
 
 
     @Test
-    public void getAccessorySellPrice() {
-        assertEquals(40, drumStick.sellPrice());
+    public void getSellPrice() {
+        assertEquals(40, drumStick.getSellPrice());
     }
 
     @Test
-    public void getAccessoryPrice() {
+    public void getPrice() {
         assertEquals(30, drumStick.getPrice());
     }
 }

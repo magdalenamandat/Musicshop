@@ -16,11 +16,11 @@ public class GuitarStringTest {
 
     @Test
     public void getAccessoryPrice() {
-        assertEquals(50, guitarString.getAccessoryPrice());
+        assertEquals(50, guitarString.getPrice());
     }
 
     @Test
     public void getAccessorySellPrice() {
-        assertEquals(80, guitarString.getAccessorySellPrice());
+        assertEquals(80, guitarString.getSellPrice());
     }
 }
