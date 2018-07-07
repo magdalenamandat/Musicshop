@@ -17,11 +17,11 @@ public class DrumStickTest {
 
     @Test
     public void getAccessorySellPrice() {
-        assertEquals(40, drumStick.getAccessorySellPrice());
+        assertEquals(40, drumStick.sellPrice());
     }
 
     @Test
     public void getAccessoryPrice() {
-        assertEquals(30, drumStick.getAccessoryPrice());
+        assertEquals(30, drumStick.getPrice());
     }
 }

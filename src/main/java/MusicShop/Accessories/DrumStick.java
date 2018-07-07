@@ -3,7 +3,7 @@ package MusicShop.Accessories;
 public class DrumStick extends Accessory{
 
 
-    public DrumStick(int accessoryPrice, int accessorySellPrice) {
-        super(accessoryPrice, accessorySellPrice);
+    public DrumStick(int price, int sellPrice) {
+        super(price, sellPrice);
     }
 }

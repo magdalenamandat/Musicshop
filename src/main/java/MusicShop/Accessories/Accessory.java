@@ -2,19 +2,19 @@ package MusicShop.Accessories;
 
 public abstract class Accessory {
 
-    private int accessoryPrice;
-    private int accessorySellPrice;
+    private int price;
+    private int sellPrice;
 
-    public Accessory(int accessoryPrice, int accessorySellPrice){
-        this.accessoryPrice = accessoryPrice;
-        this.accessorySellPrice = accessorySellPrice;
+    public Accessory(int price, int sellPrice){
+        this.price = price;
+        this.sellPrice = sellPrice;
     }
 
-    public int getAccessoryPrice() {
-        return accessoryPrice;
+    public int getPrice() {
+        return price;
     }
 
-    public int getAccessorySellPrice() {
-        return accessorySellPrice;
+    public int getSellPrice() {
+        return sellPrice;
     }
 }
