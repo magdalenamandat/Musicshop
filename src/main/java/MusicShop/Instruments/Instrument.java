@@ -1,6 +1,6 @@
 package MusicShop.Instruments;
 
-public abstract class Instrument {
+public abstract class Instrument implements IPlay {
 
     private String material;
     private String colour;
@@ -36,4 +36,7 @@ public abstract class Instrument {
     public int getSellPrice() {
         return sellPrice;
     }
+
+
+
 }

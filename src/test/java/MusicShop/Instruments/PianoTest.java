@@ -18,4 +18,9 @@ public class PianoTest {
     public void getProductionYear() {
         assertEquals(1935, piano.getProductionYear());
     }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Plink plonk", piano.play("Plink plonk"));
+    }
 }

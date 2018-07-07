@@ -12,4 +12,9 @@ public class Piano extends Instrument{
     public int getProductionYear() {
         return productionYear;
     }
+
+    @Override
+    public String play(String noise) {
+        return "Plink plonk";
+    }
 }

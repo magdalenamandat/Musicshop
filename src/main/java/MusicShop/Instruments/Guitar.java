@@ -12,4 +12,9 @@ public class Guitar extends Instrument{
     public int getNumberOfStrings(){
         return numberOfStrings;
     }
+
+    @Override
+    public String play(String noise) {
+        return "Yeah yeah";
+    }
 }

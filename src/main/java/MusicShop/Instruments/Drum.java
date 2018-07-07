@@ -12,4 +12,11 @@ public class Drum extends Instrument {
     public int getSetSize() {
         return setSize;
     }
+
+    @Override
+    public String play(String noise) {
+        return "Boom boom";
+    }
+
+
 }
