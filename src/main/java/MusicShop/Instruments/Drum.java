@@ -1,10 +1,10 @@
 package MusicShop.Instruments;
 
-public class Drums extends Instrument {
+public class Drum extends Instrument {
 
     private int setSize;
 
-    public Drums(String material, String colour, String type, int price, int sellPrice, int setSize) {
+    public Drum(String material, String colour, String type, int price, int sellPrice, int setSize) {
         super(material, colour, type, price, sellPrice);
         this.setSize = setSize;
     }
