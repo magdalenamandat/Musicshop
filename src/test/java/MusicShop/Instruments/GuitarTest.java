@@ -11,7 +11,7 @@ public class GuitarTest {
 
     @Before
     public void setUp() {
-        guitar = new Guitar("wood", "black", "steel-stringed", 200, 300, 5 );
+        guitar = new Guitar("wood", "black", "steel-stringed", 200, 300, 5,"Yeah yeah" );
     }
 
     @Test

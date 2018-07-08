@@ -11,7 +11,7 @@ public class DrumTest {
 
     @Before
     public void setUp(){
-        drum = new Drum("wood", "red", "percussion", 300, 400, 2);
+        drum = new Drum("wood", "red", "percussion", 300, 400, 2, "Boom boom");
     }
 
     @Test

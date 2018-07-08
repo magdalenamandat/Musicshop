@@ -1,6 +1,8 @@
 package MusicShop.Accessories;
 
-public abstract class Accessory {
+import MusicShop.ISell;
+
+public abstract class Accessory implements ISell {
 
     private int price;
     private int sellPrice;
@@ -16,5 +18,10 @@ public abstract class Accessory {
 
     public int getSellPrice() {
         return sellPrice;
+    }
+
+    public int calculateMarkup(int price, int sellPrice) {
+        int markup = sellPrice - price;
+        return markup;
     }
 }

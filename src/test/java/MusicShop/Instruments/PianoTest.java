@@ -11,7 +11,7 @@ public class PianoTest {
 
     @Before
     public void setUp(){
-        piano = new Piano("oak", "white", "stringed", 800, 1000, 1935);
+        piano = new Piano("oak", "white", "stringed", 800, 1000, 1935,"Plink plonk");
     }
 
     @Test

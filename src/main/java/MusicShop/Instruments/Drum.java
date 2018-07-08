@@ -18,11 +18,4 @@ public class Drum extends Instrument {
         return "Boom boom";
     }
 
-//    @Override
-//    public int calculateMarkup(int price, int sellPrice) {
-//        int markup = sellPrice - price;
-//        return markup;
-//    }
-
-
 }

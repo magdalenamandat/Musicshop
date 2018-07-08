@@ -6,4 +6,5 @@ public class GuitarCover extends Accessory {
         super(price, sellPrice);
     }
 
+
 }
