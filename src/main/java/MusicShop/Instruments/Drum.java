@@ -4,8 +4,8 @@ public class Drum extends Instrument {
 
     private int setSize;
 
-    public Drum(String material, String colour, String type, int price, int sellPrice, int setSize) {
-        super(material, colour, type, price, sellPrice);
+    public Drum(String material, String colour, String type, int price, int sellPrice, int setSize, String noise) {
+        super(material, colour, type, price, sellPrice, noise);
         this.setSize = setSize;
     }
 
@@ -17,6 +17,12 @@ public class Drum extends Instrument {
     public String play(String noise) {
         return "Boom boom";
     }
+
+//    @Override
+//    public int calculateMarkup(int price, int sellPrice) {
+//        int markup = sellPrice - price;
+//        return markup;
+//    }
 
 
 }
