@@ -46,7 +46,6 @@ public abstract class Instrument implements IPlay, ISell {
         return this.noise;
     }
 
-    @Override
     public int calculateMarkup(int price, int sellPrice) {
         int markup = sellPrice - price;
         return markup;
